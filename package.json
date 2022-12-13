@@ -3,11 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emeraldpay/hashicon": "^0.5.2",
+    "@emeraldpay/hashicon-react": "^0.5.2",
+    "@emotion/react": "^11.10.4",
+    "@mantine/core": "^5.4.2",
+    "@mantine/form": "^5.4.2",
+    "@mantine/hooks": "^5.4.2",
+    "@mantine/modals": "^5.5.0",
+    "@mantine/notifications": "^5.4.2",
+    "@mantine/rte": "^5.4.2",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.0.0",
+    "framer-motion": "^7.5.2",
     "react": "^18.2.0",
+    "react-cookie": "^4.1.1",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-router-dom": "^6.4.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -34,5 +48,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
   }
 }
